@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+    animation: example 1.5s linear infinite;
+}
+
+.logohref {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;    
+}
+
+@keyframes example {
+    0% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(1, 1, 1, 360deg);
+    }
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.service {
+    flex-basis: 30%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    margin-top: 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(0.9);
+}
+
+.button:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+}
+
+.href {
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.href:hover {
+    color: #666;
+    text-decoration: underline;
+    background-color: #ddd;
+    transform: scale(1.1)
+}
+
+.href:active {
+    transform: scale(0.9);
+}
