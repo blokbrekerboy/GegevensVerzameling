@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Mijn Website</title>
     <style>
-        
+
     </style>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="header">
         <a href="index.php" class="logohref"><img src="logo.svg" id="logo" alt="Logo"></a>
@@ -19,8 +21,10 @@
 
     <main>
         <h2>Over</h2>
-        <p>Dit is de thuispagina van mijn website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl at ultrices tincidunt, nunc nunc aliquet nunc, id lacinia nunc nunc ac nunc. Sed auctor, nunc id lacinia aliquet, nunc nunc aliquet nunc, id lacinia nunc nunc ac nunc.</p>
-        
+        <p>Dit is de thuispagina van mijn website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            auctor, nisl at ultrices tincidunt, nunc nunc aliquet nunc, id lacinia nunc nunc ac nunc. Sed auctor, nunc
+            id lacinia aliquet, nunc nunc aliquet nunc, id lacinia nunc nunc ac nunc.</p>
+
         <h2>Diensten</h2>
         <div class="services">
             <div class="service">
@@ -36,7 +40,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
         </div>
-        
+
         <h2>Contact</h2>
         <div class="contact-info">
             <div>
@@ -54,9 +58,10 @@
             </div>
         </div>
     </main>
-    
+
     <div class="footer">
         &copy; <?php echo date("Y"); ?> Mijn Website. Alle rechten voorbehouden.
     </div>
 </body>
+
 </html>
